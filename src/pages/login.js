@@ -31,6 +31,8 @@ export default Form.create({})(
             const { radioVal } = this.state;
             return (
                 <div style={{
+                    backgroundImage: 'url("http://pic.qiantucdn.com/58pic/18/07/20/93758PIC4zg_1024.png")',
+                    boxShadow: '10px 10px 40px #cccccc',
                     height: window.innerHeight,
                     display: 'flex',
                     justifyContent: 'center',
@@ -39,7 +41,8 @@ export default Form.create({})(
                     <Card
                         title="登录"
                         style={{
-                            width: 360
+                            width: 360,
+                            height: 373
                         }}
                     >
                         <Form onSubmit={this.handleSubmit} className="login-form">

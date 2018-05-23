@@ -44,6 +44,7 @@ class App extends Component {
               <Layout>
                 <Content style={{
                   margin: '20px 30px 0px 30px',
+                  padding: 16,
                   backgroundColor: '#ffffff',
                 }}>
                   <ContentRouter role={role} loginStatus={isLogin} />
