@@ -19,7 +19,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>教育技术实验室</title>
   </head>
   <body>
     <noscript>
@@ -37,6 +37,21 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script>
+      // const titleMap = new Map(
+      //   [
+      //     ['login', '登录'],
+      //     [undefined, '通知公告'],
+      //     ['profile', '使用指南'],
+      //     ['appstoreo', '作品展示'],
+      //     ['filetext', '获奖情况'],
+      //     ['smileo', '使用申请'],
+      //     ['calendar', '教学计划'],
+      //     ['book', '教学成绩'],
+      //     ['laptop', '电视资源']
+      //   ]
+      // );
+      // let pathName = window.location.pathname.split('/')[2];
+      // document.querySelector('title').innerText = titleMap.get(pathName);
       window.onbeforeunload = () => {
         return false;
       }
