@@ -14,6 +14,7 @@ export default Form.create({})(
                 radioVal: 'stu',
             }
         }
+        //请合并handleSubmit和handleLogin
         handleSubmit = () => {}
         handleRadioChange = e => {
             this.setState({
