@@ -18,7 +18,7 @@ ReactDOM.render(
             //         <a style="color: red; font-size: 24px;" href="http://localhost:3000/login">去登陆</a>
             //     </div>
             // `;
-            window.location.href = 'http://localhost:3000/login'
+            window.location.href = `http://localhost:${window.location.port}/login`
         } 
     }
 
